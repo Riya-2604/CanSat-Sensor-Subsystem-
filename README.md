@@ -1,4 +1,4 @@
-w<!-- MAIN TITLE -->
+<!-- MAIN TITLE -->
 <h1 align="center">
    <b>IN-SPACe CanSat 2024–25</b> 🛰️
 </h1>
