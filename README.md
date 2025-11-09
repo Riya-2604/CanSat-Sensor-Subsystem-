@@ -81,7 +81,7 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 
 ### *Final Assembly*
 <p align="center">
-<img src="https://github.com/user-attachments/assets/4235ef58-31bc-4e22-acd1-9bff17dca7be" width="400">
+<img src="https://github.com/user-attachments/assets/4235ef58-31bc-4e22-acd1-9bff17dca7be" width="375">
 <img src="https://github.com/user-attachments/assets/5fffc7b6-dd2c-4c55-9b93-07767f6a5072" width="400">
 
 </p>
