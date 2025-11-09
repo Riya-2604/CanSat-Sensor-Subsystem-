@@ -173,7 +173,7 @@ Similarly, the **LoRa SX1262** functions as a **secondary telemetry module**, ma
 
 **Avionics Team — PSIT Vyomnauts**
 
-- Arya Mishra (https://www.linkedin.com/in/arya-mishra-43307525a)
+- <h6 Arya Mishra src ="https://www.linkedin.com/in/arya-mishra-43307525a">
 - Rahul Kumar (https://www.linkedin.com/in/rahul-kumar-rk212004)
 - Riya Verma (https://www.linkedin.com/in/riya-verma-641230317)
 - Lavitra Sahu (http://techarcanist.com)
