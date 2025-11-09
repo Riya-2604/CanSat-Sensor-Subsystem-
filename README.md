@@ -98,7 +98,7 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 
 ---
 
-## 🛰️ Communication and Telemetry
+## Communication and Telemetry
 
 - **Primary Link:** XBee3 Pro RF (2.4 GHz), LoRa SX 1262 (433MHz) 
 - **Secondary Link:** Quectel EC200U (4G LTE Sends SMS of satellite's Coordinates)  
@@ -107,7 +107,7 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 
 ---
 
-## 💾 Data Logging System
+##  Data Logging System
 
 - High-speed SPI interface with SD card module  
 - Logs environmental, motion, and telemetry data at fixed intervals  
