@@ -115,17 +115,20 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 
 ---
 
-##  Sensor Subsystem Overview
 
-| Sensor | Parameter Measured | Interface |
-|---------|-------------------|------------|
-| **BMP390** | Pressure, Altitude, Temperature | I²C |
-| **BNO085** | Acceleration, Gyro, Orientation | I²C |
-| **INA219** | Current, Voltage | I²C |
-| **DS1307** | Time, Date | I²C |
-| **MQ135** | Air Quality (CO₂, NH₃, etc.) | Analog |
-| **MQ2** | Smoke / Methane | Analog |
-| **BharatPi NavIC** | GPS / NavIC Positioning | UART |
+## Sensor Role and Functionality in Mission Logic
+
+The **BMP390** (barometric sensor) and **BNO085** (IMU) work together to compute altitude through **pressure and acceleration fusion**.  
+This data feeds the **flight state logic**, allowing the onboard computer to autonomously detect **ascent**, **apogee**, and **descent** phases of flight.
+
+The **MQ series sensors (MQ135 and MQ2)** measure **gaseous concentrations** like CO₂, NH₃, and methane.  
+These readings are used as part of an **experimental payload** to study atmospheric gas variation during flight.
+
+The **BharatPi NavIC GPS** continuously provides **real-time coordinates** for position tracking, which is crucial for **recovery operations** after landing.
+
+The **secondary controller (Arduino Nano 33 BLE Sense REV 2)** acts as a **failsafe** for recovery operations, ensuring critical systems like telemetry and parachute deployment remain operational even if the primary controller fails.
+
+Similarly, the **LoRa SX1262** functions as a **secondary telemetry module**, maintaining long-range communication redundancy alongside the primary XBee3 Pro module.
 
 ---
 
@@ -136,7 +139,9 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 3. ✅ **Calibration:** BNO085 and BMP 390 auto-calibration completed successfully  
 4. ✅ **Gas Sensors:** MQ2 and MQ135 calibrated for clean-air baselines  
 5. ✅ **GPS Test:** NavIC GPS fix and tracking verified under open sky  
-6. ✅ **Telemetry:** Dual-link (XBee) data verified during drop test  
+6. ✅ **Telemetry:** Dual-link (XBee) data verified during range  test and drop test
+7. ✅ **Pressure Chamber Test:** The entire avionics module was successfully tested in a **custom pressure chamber** to simulate **high-altitude low-pressure conditions**.  
+   Sensor data (BMP390 pressure-altitude readings) were verified for accuracy and consistency, confirming the system’s **altitude measurement reliability** under simulated flight conditions.
 
 ---
 
