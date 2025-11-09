@@ -167,7 +167,7 @@ Similarly, the **LoRa SX1262** functions as a **secondary telemetry module**, ma
   <b>At IN-SPACe CanSat Student India Competition 2024–2025</b>
 </h3>
 
-----
+---
 
 ## 👨‍🚀 Developed By
 
