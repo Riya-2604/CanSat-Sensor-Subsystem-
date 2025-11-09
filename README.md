@@ -166,7 +166,7 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 
 **Avionics Team — PSIT Vyomnauts**
 
-- Arya Mishra  
+- Arya Mishra (#https://www.linkedin.com/in/arya-mishra-43307525a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Rahul Kumar  
 - Riya Verma  
 - Lavitra Sahu  
