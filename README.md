@@ -55,7 +55,6 @@ It performs **telemetry**, **data logging**, **sensor fusion**, and **power mana
 
 <p align="center">
   <img width="1000" height="600" alt="Blank diagram (9)" src="https://github.com/user-attachments/assets/74a6bf0a-0a04-4b18-99ff-b3eeb8283efb" />
-
 </p>
 ---
 
