@@ -142,8 +142,8 @@ Similarly, the **LoRa SX1262** functions as a **secondary telemetry module**, ma
 4. ✅ **Gas Sensors:** MQ2 and MQ135 calibrated for clean-air baselines  
 5. ✅ **GPS Test:** NavIC GPS fix and tracking verified under open sky  
 6. ✅ **Telemetry:** Dual-link (XBee) data verified during range  test and drop test
-7. ✅ **Pressure Chamber Test:** The entire avionics module was successfully tested in a **custom pressure chamber** to simulate **high-altitude low-pressure conditions**.  
-   Sensor data (BMP390 pressure-altitude readings) were verified for accuracy and consistency, confirming the system’s **altitude measurement reliability** under simulated flight conditions.
+7. ✅ **Pressure Chamber Test:** The avionics module was tested in a **custom pressure chamber**, verifying **BMP390 altitude accuracy** and **system reliability** under **simulated high-altitude conditions**.
+
 
 ---
 
