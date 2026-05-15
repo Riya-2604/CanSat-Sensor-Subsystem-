@@ -184,3 +184,4 @@ Similarly, the **LoRa SX1262** functions as a **secondary telemetry module**, ma
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=28&color=00FFAA&center=true&vCenter=true&width=850&height=70&duration=4500&lines=Innovation+in+Every+Orbit+🛰️;Precision+in+Every+Design+⚙️;Excellence+in+Every+Launch+🚀" />
 </h1>
+ 
